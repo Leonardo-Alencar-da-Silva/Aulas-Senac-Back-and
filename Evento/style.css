@@ -1,0 +1,56 @@
+header
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1, 
+header p, 
+header h2 
+{
+    color: #D4AF37;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+nav a
+{
+color: #D4AF37;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: bold;
+margin-left: 20px;
+transition: color 0.3s;
+}
+
+nav a:hover
+{
+    color:#ffd700
+}
+
+body
+{
+   height: 100vh;
+    margin: 0;
+    background-color: blue;
+    
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    align-items: center;
+}
