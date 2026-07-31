@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly - Descubra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <form action="#footer2" class="barra-pesquisa">
+            <img src="img/lupa.png" alt="Pesquisar" class="icone-lupa">
+            <input type="text" placeholder="pesquisar">
+            <button type="submit" class="btn-img">
+                <img src="img/bot.png" alt="Buscar">
+            </button>
+        </form>
+        
+        <h1>Fly</h1>
+        
+        <nav>
+            <a href="index.html">
+                <img src="img/home.png" alt="Página Inicial" class="icone-nav">
+            </a>
+            <a href="Descubra.html">
+                <img src="img/larva.png" alt="Se descubra" class="icone-nav">
+            </a>
+        </nav>
+    </header>
+
+    <main class="main-formulario">
+        <fieldset class="formulario-borboleta">
+            <legend>Descubra qual Borboleta você é</legend>
+            <form action="perfeito.html">
+                <div class="grupo-input">
+                    <label>*Nome:</label>
+                    <input type="text" required placeholder="Digite seu nome aqui">
+                </div>
+                
+                <div class="grupo-input">
+                    <label>*WhatsApp:</label>
+                    <input type="number" required placeholder="(00) 9 0000-0000">
+                </div>
+                
+                <label class="titulo-opcoes">O que prefere?</label>
+                <div class="opcoes-radio">
+                    <label><input type="radio" name="pergunta"> Frio</label>
+                    <label><input type="radio" name="pergunta"> Quente</label>
+                    <label><input type="radio" name="resposta"> Dog</label>
+                    <label><input type="radio" name="resposta"> Cat</label>
+                    <label><input type="radio" name="ala"> Sozinho</label>
+                    <label><input type="radio" name="ala"> Com Amigos</label>
+                    <label><input type="radio" name="pato"> Viajar</label>
+                    <label><input type="radio" name="pato"> Cinema</label>
+                </div>
+                
+                <button type="submit" class="btn-img btn-enviar">
+                    <img src="img/bot1.png" alt="Enviar">
+                </button>
+            </form>
+        </fieldset>
+    </main>
+
+    <footer id="footer2">
+        <div class="contato">
+            <img src="img/marketing-de-email.png" alt="Email">
+            <p>alencarleon@outlook.com</p>
+        </div>
+        <div class="contato">
+            <img src="img/whatsapp.png" alt="WhatsApp">
+            <p>(34) 9 8446 - 5569</p>
+        </div>
+        <h2>Fly</h2>
+    </footer>
+</body>
+</html>
